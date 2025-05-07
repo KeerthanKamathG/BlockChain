@@ -1,0 +1,25 @@
+{
+  "name": "ethereum-blockchain-network",
+  "version": "1.0.0",
+  "description": "A simple Ethereum blockchain network project using Truffle and Ganache CLI",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "truffle test",
+    "migrate": "truffle migrate",
+    "ganache": "ganache-cli"
+  },
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "truffle",
+    "ganache",
+    "solidity"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.8.0"
+  }
+}
+
